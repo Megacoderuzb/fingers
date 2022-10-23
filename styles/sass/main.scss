@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(36, 105, 210);
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: rgb(36, 105, 210);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 0.3rem;
+}
+.finger1 {
+  width: 60px;
+  height: 150px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15%;
+  animation-name: main;
+  animation-duration: 8s;
+  animation-timing-function: cubic-bezier(0, 1.36, 0.85, 0.98);
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  .finger-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 0.6rem 0 0.6rem 0;
+    &__span {
+      width: 1.6rem;
+      height: 0.25rem;
+      background-color: rgb(36, 105, 210);
+    }
+    &__square {
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: rgb(36, 105, 210);
+      margin-bottom: 0.5rem;
+      border-bottom-left-radius: 30%;
+      border-bottom-right-radius: 30%;
+      border-top-right-radius: 45%;
+      border-top-left-radius: 45%;
+    }
+  }
+}
+.finger2 {
+  width: 60px;
+  height: 180px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15%;
+  animation-name: main;
+  animation-duration: 6s;
+  animation-timing-function: cubic-bezier(0, 1.36, 0.85, 0.98);
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  .finger-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 0.6rem 0 0.6rem 0;
+    &__span {
+      width: 1.6rem;
+      height: 0.25rem;
+      background-color: rgb(36, 105, 210);
+    }
+    &__square {
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: rgb(36, 105, 210);
+      margin-bottom: 0.5rem;
+      border-bottom-left-radius: 30%;
+      border-bottom-right-radius: 30%;
+      border-top-right-radius: 45%;
+      border-top-left-radius: 45%;
+    }
+  }
+}
+.finger3 {
+  width: 60px;
+  height: 220px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15%;
+  animation-name: main;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0, 1.36, 0.85, 0.98);
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  .finger-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 0.6rem 0 0.6rem 0;
+    &__span {
+      width: 1.6rem;
+      height: 0.25rem;
+      background-color: rgb(36, 105, 210);
+    }
+    &__square {
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: rgb(36, 105, 210);
+      margin-bottom: 0.5rem;
+      border-bottom-left-radius: 30%;
+      border-bottom-right-radius: 30%;
+      border-top-right-radius: 45%;
+      border-top-left-radius: 45%;
+    }
+  }
+}
+.finger4 {
+  width: 60px;
+  height: 180px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15%;
+  animation-name: main;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0, 1.36, 0.85, 0.98);
+  animation-delay: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+
+  .finger-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: 0.6rem 0 0.6rem 0;
+    animation: line 2s linear 1s infinite both forwards;
+    &__span {
+      width: 1.6rem;
+      height: 0.25rem;
+      background-color: rgb(36, 105, 210);
+    }
+    &__square {
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: rgb(36, 105, 210);
+      margin-bottom: 0.5rem;
+      border-bottom-left-radius: 30%;
+      border-bottom-right-radius: 30%;
+      border-top-right-radius: 45%;
+      border-top-left-radius: 45%;
+    }
+  }
+}
+.finger5 {
+  width: 85px;
+  height: 70px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 30%;
+  border-bottom-right-radius: 70%;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  // transform: rotate(90deg);
+  transform: translateY(0);
+  // animation-name: main;
+  animation: fives 7s cubic-bezier(1, 0.96, 0, 1) 7s infinite alternate-reverse;
+}
+@keyframes main {
+  from {
+    transform: rotateX(50deg);
+    transform-origin: 100% 0;
+  }
+  to {
+    transform: translateY(2rem);
+  }
+}
+@keyframes fives {
+  to {
+    transform: translateY(32px);
+  }
+}
+@keyframes line {
+  to {
+    opacity: 1;
+  }
+}
